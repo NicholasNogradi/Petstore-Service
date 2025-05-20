@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource xmlns:con="http://eviware.com/soapui/config" name="/user/logout" path="/user/logout" id="dc4137ac-a93a-4119-a454-b84ec52f5118">
+<con:resource xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="/user/logout" path="/user/logout" id="dc4137ac-a93a-4119-a454-b84ec52f5118">
   <con:settings>
     <con:setting id="dc4137ac-a93a-4119-a454-b84ec52f5118fileName">%2Fuser%2Flogout</con:setting>
   </con:settings>
@@ -11,6 +11,10 @@
     <con:request name="Request 1" id="2f8f3fb8-30aa-4957-a1ca-afac07e366a5" mediaType="application/json">
       <con:settings/>
       <con:endpoint>https://petstore.swagger.io/v2</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>

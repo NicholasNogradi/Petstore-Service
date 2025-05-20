@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource xmlns:con="http://eviware.com/soapui/config" name="/store/order/{orderId}" path="/store/order/{orderId}" id="7314a317-7ff3-4247-95e4-f3308d17c5d4">
+<con:resource xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="/store/order/{orderId}" path="/store/order/{orderId}" id="7314a317-7ff3-4247-95e4-f3308d17c5d4">
   <con:settings>
     <con:setting id="7314a317-7ff3-4247-95e4-f3308d17c5d4fileName">%2Fstore%2Forder%2F%7BorderId%7D</con:setting>
   </con:settings>
@@ -31,6 +31,10 @@
     <con:request name="Request 1" id="9629e0b3-1f55-4c75-8939-6ab03a9666bc" mediaType="application/json">
       <con:settings/>
       <con:endpoint>https://petstore.swagger.io/v2</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>
@@ -47,6 +51,10 @@
     <con:request name="Request 1" id="a4c9c64d-773e-4e29-b28a-b7d61bc3e6c4" mediaType="application/json">
       <con:settings/>
       <con:endpoint>https://petstore.swagger.io/v2</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource xmlns:con="http://eviware.com/soapui/config" name="/user/{username}" path="/user/{username}" id="e2705c77-adbf-40da-9e03-2a5984982a3c">
+<con:resource xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="/user/{username}" path="/user/{username}" id="e2705c77-adbf-40da-9e03-2a5984982a3c">
   <con:settings>
     <con:setting id="e2705c77-adbf-40da-9e03-2a5984982a3cfileName">%2Fuser%2F%7Busername%7D</con:setting>
   </con:settings>
@@ -49,6 +49,10 @@
     <con:request name="Request 1" id="c3f46c06-b57e-4381-8708-23129692b8a5" mediaType="application/json">
       <con:settings/>
       <con:endpoint>https://petstore.swagger.io/v2</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>
@@ -65,6 +69,10 @@
     <con:request name="Request 1" id="af7aac37-0cd8-409b-bece-16a7b0639708" mediaType="application/json">
       <con:settings/>
       <con:endpoint>https://petstore.swagger.io/v2</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>

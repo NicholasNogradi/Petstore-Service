@@ -13,7 +13,7 @@
         <con:encoding>UTF-8</con:encoding>
         <con:endpoint>https://petstore.swagger.io/v2</con:endpoint>
         <con:request>{
-   "id" : 1234,
+   "id" : 1235,
    "category" : {
       "id" : 0,
       "name" : "string"
