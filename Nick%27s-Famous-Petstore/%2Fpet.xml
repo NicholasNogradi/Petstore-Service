@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="/pet" path="/pet" id="d6dd6394-ddc3-4062-aa1a-a1f7593acef3">
+<con:resource xmlns:con="http://eviware.com/soapui/config" id="d6dd6394-ddc3-4062-aa1a-a1f7593acef3" name="/pet" path="/pet">
   <con:settings>
     <con:setting id="d6dd6394-ddc3-4062-aa1a-a1f7593acef3fileName">%2Fpet</con:setting>
   </con:settings>
   <con:parameters/>
-  <con:method name="addPet" id="179b8c7a-1b7d-47eb-a26f-eddc0507dc7b" method="POST">
+  <con:method id="179b8c7a-1b7d-47eb-a26f-eddc0507dc7b" method="POST" name="addPet">
     <con:description>Add a new pet to the store</con:description>
     <con:settings/>
     <con:parameters/>
@@ -26,7 +26,7 @@
   "status" : "available"
 }</con:sampleContent>
     </con:representation>
-    <con:request name="Request 1" id="a861eab5-f0f8-4cf4-aafd-0f1380d912d3" mediaType="application/json">
+    <con:request id="a861eab5-f0f8-4cf4-aafd-0f1380d912d3" mediaType="application/json" name="Request 1">
       <con:settings/>
       <con:endpoint>https://petstore.swagger.io/v2</con:endpoint>
       <con:request>{

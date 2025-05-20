@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="/pet/{petId}" path="/pet/{petId}" id="eda043fb-8552-49d6-b785-c0cca7d20b03">
+<con:resource xmlns:con="http://eviware.com/soapui/config" id="eda043fb-8552-49d6-b785-c0cca7d20b03" name="/pet/{petId}" path="/pet/{petId}">
   <con:settings>
     <con:setting id="eda043fb-8552-49d6-b785-c0cca7d20b03fileName">%2Fpet%2F%7BpetId%7D</con:setting>
   </con:settings>
   <con:parameters/>
-  <con:method name="getPetById" id="ed434f22-5b47-4dbd-9a60-f98238224ee2" method="GET">
+  <con:method id="ed434f22-5b47-4dbd-9a60-f98238224ee2" method="GET" name="getPetById">
     <con:description>Returns a single pet</con:description>
     <con:settings/>
     <con:parameters>
@@ -39,7 +39,7 @@
   "status" : "available"
 }</con:sampleContent>
     </con:representation>
-    <con:request name="Request 1" id="fcae9978-e779-40a2-a489-d104557dbb52" mediaType="application/json">
+    <con:request id="fcae9978-e779-40a2-a489-d104557dbb52" mediaType="application/json" name="Request 1">
       <con:settings/>
       <con:endpoint>https://petstore.swagger.io/v2</con:endpoint>
       <con:credentials>
@@ -49,7 +49,7 @@
       <con:parameters/>
     </con:request>
   </con:method>
-  <con:method name="deletePet" id="d56875b2-bc5b-486b-ba4d-aa0692bb1a71" method="DELETE">
+  <con:method id="d56875b2-bc5b-486b-ba4d-aa0692bb1a71" method="DELETE" name="deletePet">
     <con:description>Deletes a pet</con:description>
     <con:settings/>
     <con:parameters>
@@ -63,7 +63,7 @@
         <con:description>Pet id to delete</con:description>
       </con:parameter>
     </con:parameters>
-    <con:request name="Request 1" id="b3a635e6-b9e7-42d9-bdb8-aeedf28aa648" mediaType="application/json">
+    <con:request id="b3a635e6-b9e7-42d9-bdb8-aeedf28aa648" mediaType="application/json" name="Request 1">
       <con:settings/>
       <con:endpoint>https://petstore.swagger.io/v2</con:endpoint>
       <con:credentials>
@@ -73,7 +73,7 @@
       <con:parameters/>
     </con:request>
   </con:method>
-  <con:method name="updatePetWithForm" id="d4762952-7d59-456f-9ce4-7de7f6680f97" method="PUT">
+  <con:method id="d4762952-7d59-456f-9ce4-7de7f6680f97" method="PUT" name="updatePetWithForm">
     <con:description>Updates a pet in the store with form data</con:description>
     <con:settings/>
     <con:parameters>
@@ -87,7 +87,7 @@
       <con:mediaType>application/x-www-form-urlencoded</con:mediaType>
       <con:params/>
     </con:representation>
-    <con:request name="Request 1" id="27146585-7b65-4553-8c68-c0c13f237d95" mediaType="application/x-www-form-urlencoded">
+    <con:request id="27146585-7b65-4553-8c68-c0c13f237d95" mediaType="application/x-www-form-urlencoded" name="Request 1">
       <con:settings/>
       <con:endpoint>https://petstore.swagger.io/v2</con:endpoint>
       <con:credentials>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="/store/order/{orderId}" path="/store/order/{orderId}" id="7314a317-7ff3-4247-95e4-f3308d17c5d4">
+<con:resource xmlns:con="http://eviware.com/soapui/config" id="7314a317-7ff3-4247-95e4-f3308d17c5d4" name="/store/order/{orderId}" path="/store/order/{orderId}">
   <con:settings>
     <con:setting id="7314a317-7ff3-4247-95e4-f3308d17c5d4fileName">%2Fstore%2Forder%2F%7BorderId%7D</con:setting>
   </con:settings>
   <con:parameters/>
-  <con:method name="getOrderById" id="a8be8076-444c-4b6f-b6d5-53623fa92164" method="GET">
+  <con:method id="a8be8076-444c-4b6f-b6d5-53623fa92164" method="GET" name="getOrderById">
     <con:description>For valid response try integer IDs with value >= 1 and &lt;= 10.\ \ Other values will generated exceptions</con:description>
     <con:settings/>
     <con:parameters>
@@ -28,7 +28,7 @@
   "complete" : false
 }</con:sampleContent>
     </con:representation>
-    <con:request name="Request 1" id="9629e0b3-1f55-4c75-8939-6ab03a9666bc" mediaType="application/json">
+    <con:request id="9629e0b3-1f55-4c75-8939-6ab03a9666bc" mediaType="application/json" name="Request 1">
       <con:settings/>
       <con:endpoint>https://petstore.swagger.io/v2</con:endpoint>
       <con:credentials>
@@ -38,7 +38,7 @@
       <con:parameters/>
     </con:request>
   </con:method>
-  <con:method name="deleteOrder" id="c745402f-ec20-4136-bb17-2255a3ffb3e0" method="DELETE">
+  <con:method id="c745402f-ec20-4136-bb17-2255a3ffb3e0" method="DELETE" name="deleteOrder">
     <con:description>For valid response try integer IDs with positive integer value.\ \ Negative or non-integer values will generate API errors</con:description>
     <con:settings/>
     <con:parameters>
@@ -48,7 +48,7 @@
         <con:description>ID of the order that needs to be deleted</con:description>
       </con:parameter>
     </con:parameters>
-    <con:request name="Request 1" id="a4c9c64d-773e-4e29-b28a-b7d61bc3e6c4" mediaType="application/json">
+    <con:request id="a4c9c64d-773e-4e29-b28a-b7d61bc3e6c4" mediaType="application/json" name="Request 1">
       <con:settings/>
       <con:endpoint>https://petstore.swagger.io/v2</con:endpoint>
       <con:credentials>

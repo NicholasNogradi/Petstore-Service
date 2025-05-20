@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <con:testSuite xmlns:con="http://eviware.com/soapui/config" id="7e3c9537-6a21-42c8-8fb1-2359d6c75224" name="Regression-suite">
-  <con:settings id="ee98f788-48ca-4e5d-8095-422a48849600">
+  <con:settings>
     <con:setting id="7e3c9537-6a21-42c8-8fb1-2359d6c75224fileName">Regression-suite</con:setting>
   </con:settings>
   <con:runType>SEQUENTIAL</con:runType>
