@@ -47,7 +47,17 @@
         <con:authType>No Authorization</con:authType>
       </con:credentials>
       <con:parameters/>
+      <con:environmentSpec>
+        <con:entry environmentId="cdb7d72c-7038-4640-928d-aada959d96d6">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
     </con:request>
+    <con:environmentSpec>
+      <con:entry environmentId="cdb7d72c-7038-4640-928d-aada959d96d6">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+    </con:environmentSpec>
   </con:method>
   <con:method id="d56875b2-bc5b-486b-ba4d-aa0692bb1a71" method="DELETE" name="deletePet">
     <con:description>Deletes a pet</con:description>
@@ -71,7 +81,17 @@
         <con:authType>No Authorization</con:authType>
       </con:credentials>
       <con:parameters/>
+      <con:environmentSpec>
+        <con:entry environmentId="cdb7d72c-7038-4640-928d-aada959d96d6">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
     </con:request>
+    <con:environmentSpec>
+      <con:entry environmentId="cdb7d72c-7038-4640-928d-aada959d96d6">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+    </con:environmentSpec>
   </con:method>
   <con:method id="d4762952-7d59-456f-9ce4-7de7f6680f97" method="PUT" name="updatePetWithForm">
     <con:description>Updates a pet in the store with form data</con:description>
@@ -95,6 +115,21 @@
         <con:authType>No Authorization</con:authType>
       </con:credentials>
       <con:parameters/>
+      <con:environmentSpec>
+        <con:entry environmentId="cdb7d72c-7038-4640-928d-aada959d96d6">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
     </con:request>
+    <con:environmentSpec>
+      <con:entry environmentId="cdb7d72c-7038-4640-928d-aada959d96d6">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+    </con:environmentSpec>
   </con:method>
+  <con:environmentSpec>
+    <con:entry environmentId="cdb7d72c-7038-4640-928d-aada959d96d6">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
 </con:resource>

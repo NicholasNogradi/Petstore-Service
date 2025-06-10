@@ -33,9 +33,19 @@
         <con:parameters>
           <con:entry key="petId" value="1234"/>
         </con:parameters>
+        <con:environmentSpec>
+          <con:entry environmentId="cdb7d72c-7038-4640-928d-aada959d96d6">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+        </con:environmentSpec>
       </con:restRequest>
     </con:config>
   </con:testStep>
   <con:properties/>
   <con:reportParameters/>
+  <con:environmentSpec>
+    <con:entry environmentId="cdb7d72c-7038-4640-928d-aada959d96d6">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
 </con:testCase>

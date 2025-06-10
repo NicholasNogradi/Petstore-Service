@@ -19,4 +19,9 @@ out more about Swagger at
     <con:endpoint>https://petstore.swagger.io/v2</con:endpoint>
     <con:endpoint>https://virtserver.swaggerhub.com/NicksDemoOrg/NicksPetStore/1.0.0</con:endpoint>
   </con:endpoints>
+  <con:environmentSpec>
+    <con:entry environmentId="cdb7d72c-7038-4640-928d-aada959d96d6">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
 </con:interface>

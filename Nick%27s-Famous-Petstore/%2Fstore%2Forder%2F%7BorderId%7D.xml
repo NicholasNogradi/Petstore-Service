@@ -36,7 +36,17 @@
         <con:authType>No Authorization</con:authType>
       </con:credentials>
       <con:parameters/>
+      <con:environmentSpec>
+        <con:entry environmentId="cdb7d72c-7038-4640-928d-aada959d96d6">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
     </con:request>
+    <con:environmentSpec>
+      <con:entry environmentId="cdb7d72c-7038-4640-928d-aada959d96d6">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+    </con:environmentSpec>
   </con:method>
   <con:method id="c745402f-ec20-4136-bb17-2255a3ffb3e0" method="DELETE" name="deleteOrder">
     <con:description>For valid response try integer IDs with positive integer value.\ \ Negative or non-integer values will generate API errors</con:description>
@@ -56,6 +66,21 @@
         <con:authType>No Authorization</con:authType>
       </con:credentials>
       <con:parameters/>
+      <con:environmentSpec>
+        <con:entry environmentId="cdb7d72c-7038-4640-928d-aada959d96d6">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
     </con:request>
+    <con:environmentSpec>
+      <con:entry environmentId="cdb7d72c-7038-4640-928d-aada959d96d6">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+    </con:environmentSpec>
   </con:method>
+  <con:environmentSpec>
+    <con:entry environmentId="cdb7d72c-7038-4640-928d-aada959d96d6">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
 </con:resource>
