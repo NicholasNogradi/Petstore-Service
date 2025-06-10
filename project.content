@@ -1,10 +1,11 @@
-Nick%27s-Famous-Petstore\%2Fpet%2F%7BpetId%7D.xml
 Nick%27s-Famous-Petstore\%2Fpet.xml
+Nick%27s-Famous-Petstore\%2Fpet%2F%7BpetId%7D.xml
 Nick%27s-Famous-Petstore\%2Fstore%2Finventory.xml
-Nick%27s-Famous-Petstore\%2Fstore%2Forder%2F%7BorderId%7D.xml
 Nick%27s-Famous-Petstore\%2Fstore%2Forder.xml
-Nick%27s-Famous-Petstore\%2Fuser%2F%7Busername%7D.xml
+Nick%27s-Famous-Petstore\%2Fstore%2Forder%2F%7BorderId%7D.xml
+Nick%27s-Famous-Petstore\%2Fuser.xml
 Nick%27s-Famous-Petstore\%2Fuser%2Flogin.xml
 Nick%27s-Famous-Petstore\%2Fuser%2Flogout.xml
-Nick%27s-Famous-Petstore\%2Fuser.xml
+Nick%27s-Famous-Petstore\%2Fuser%2F%7Busername%7D.xml
 Regression-suite\Pet-CRUD.xml
+Negative-suite\Test-Case-1.xml

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="e4c75136-eadb-4682-b42b-ea8c6a4fc655" discardOkResults="false" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="Test Case 1" searchProperties="true" timeout="0">
+  <con:settings>
+    <con:setting id="e4c75136-eadb-4682-b42b-ea8c6a4fc655fileName">Test-Case-1</con:setting>
+  </con:settings>
+  <con:testStep type="restrequest" name="REST Request" id="1a10dca3-8582-4f10-823a-4db5bab6dac3">
+    <con:settings/>
+    <con:config service="Nick's Famous Petstore" methodName="addPet" resourcePath="/pet" xsi:type="con:RestRequestStep">
+      <con:restRequest name="REST Request" id="eced161e-6faf-474b-b1ca-cd473cc00592" mediaType="application/json">
+        <con:settings/>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>https://petstore.swagger.io/v2</con:endpoint>
+        <con:request/>
+        <con:assertion type="Valid HTTP Status Codes" id="7f5bda13-5cad-4263-8e9a-3548c4f7a9eb" name="Valid HTTP Status Codes">
+          <con:settings/>
+          <con:configuration>
+            <codes>200</codes>
+          </con:configuration>
+        </con:assertion>
+        <con:assertion type="Response SLA Assertion" id="0d2ab669-0a7b-43b4-9089-dbb9aa8138c2" name="Response SLA">
+          <con:configuration>
+            <SLA>200</SLA>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>
