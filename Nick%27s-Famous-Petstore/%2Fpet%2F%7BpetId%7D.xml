@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="eda043fb-8552-49d6-b785-c0cca7d20b03" name="/pet/{petId}" path="/pet/{petId}">
+<con:resource xmlns:con="http://eviware.com/soapui/config" id="eda043fb-8552-49d6-b785-c0cca7d20b03" name="/pet/{petId}" path="/pet/{petId}">
   <con:settings>
     <con:setting id="eda043fb-8552-49d6-b785-c0cca7d20b03fileName">%2Fpet%2F%7BpetId%7D</con:setting>
   </con:settings>
