@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite xmlns:con="http://eviware.com/soapui/config" id="c72f4058-cd95-4514-ba31-69f04f0bd704" name="Negative-suite">
+  <con:settings id="e686e9c9-682a-45d8-bed2-3e2d9be4b103">
+    <con:setting id="c72f4058-cd95-4514-ba31-69f04f0bd704fileName">Negative-suite</con:setting>
+  </con:settings>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testSuite>
