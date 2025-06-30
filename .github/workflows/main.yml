@@ -1,0 +1,33 @@
+name: ReadyAPI Tests
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  ready-api-job-docker:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+        
+    - name: Run ReadyAPI tests using Docker
+      env:
+        SLM_LICENSE_SERVER: "https://api.slm.manage.smartbear.com:443"
+        API_KEY: ${{ secrets.SLM_API_KEY }}
+        RAPI_PROJ_DIR: ${{ github.workspace }}
+      run: |
+        docker run \
+          -v="${RAPI_PROJ_DIR}":/project \
+          -v="${RAPI_PROJ_DIR}/reports":/reports \
+          -v="${RAPI_PROJ_DIR}/Extensions":/ext \
+          -v="${RAPI_PROJ_DIR}/Scripts":/scripts \
+          -e SLM_LICENSE_SERVER="${SLM_LICENSE_SERVER}" \
+          -e API_KEY="${API_KEY}" \
+          -e COMMAND_LINE="-f/reports -FHTML '-EDefault environment' '/project/Petstore-Service-readyapi-project.xml'" \
+          smartbear/ready-api-soapui-testrunner:latest
