@@ -29,5 +29,5 @@ jobs:
           -v="${RAPI_PROJ_DIR}/Scripts":/scripts \
           -e SLM_LICENSE_SERVER="${SLM_LICENSE_SERVER}" \
           -e API_KEY="${API_KEY}" \
-          -e COMMAND_LINE="-f/reports -FHTML '-EDefault environment' '/project/Petstore-Service-readyapi-project.xml'" \
+          -e COMMAND_LINE="-f/reports -FHTML '-EDefault environment' '/Petstore-service/Petstore-Service-readyapi-project.xml'" \
           smartbear/ready-api-soapui-testrunner:latest
